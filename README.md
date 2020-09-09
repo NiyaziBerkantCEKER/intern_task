@@ -1,5 +1,5 @@
 # taskTracking
 
-with this app you can track your employees 
+Niyazi Berkant Çeker
 
--mean stack-
+
