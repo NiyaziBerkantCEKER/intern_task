@@ -1,0 +1,37 @@
+<div  class="row" *ngFor="let user of users">
+    <!-- <div class="col-sm-12" style="text-align:center;">
+      Register
+    </div> -->
+  
+    <div class="col-sm-12">
+        <div class="jumbotron">
+            <h1 class="display-4">THE {{user.username}}!</h1>
+            <hr class="my-4">
+            
+            <div>
+                <img src= {{user.imageUrl}}> <br>
+                Current Task: {{user.currentTask}} <br>
+                Start Date:{{user.startDate}} <br>
+                End Date: {{user.endDate}} <br>
+                Status: {{user.status}}
+            </div>
+            <p class="lead" style="color:white;">
+              <a class="btn btn-danger btn-sm" role="button" (click)="delete(user._id)">delete user</a>
+            </p>
+            <br>
+            <br>
+            <br>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active" role="progressbar"
+              aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                40%
+              </div>
+            </div>
+            
+          </div>
+
+          
+
+    </div>
+    
+  </div>
